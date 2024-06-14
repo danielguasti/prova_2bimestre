@@ -1,0 +1,12 @@
+.corpoMaior {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.corpo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Permite que os cards sejam envoltos em várias linhas */
+    justify-content: flex-start; /* Alinha os cards à esquerda */
+  }
